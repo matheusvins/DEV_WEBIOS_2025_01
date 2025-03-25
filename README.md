@@ -1,2 +1,7 @@
 # DEV_WEBIOS_2025_01
-Ola Mundo
+
+Olá mundo
+
+Hello world
+
+abure bure
