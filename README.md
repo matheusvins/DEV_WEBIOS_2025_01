@@ -1,7 +1,3 @@
 # DEV_WEBIOS_2025_01
 
-Olá mundo
-
-Hello world
-
-abure bure
+Desenvolvimento web 2025 Turma N2 Pimeiro semestre
