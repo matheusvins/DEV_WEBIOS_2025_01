@@ -67,30 +67,33 @@
         <select name="" id="">
         <option value="EAD">EAD</option>
         <option value="Semi presencial">Semi presencial</option>
-        <option value="Presencial">Pre</option>
+        <option value="Presencial">Presencial</option>
         </select>
         
         <br><br>
-
         
-        
-        
-        
+    <h2>Qual a distância aproximada entre sua residência e o local do curso?</h2>
+    
+        0KM <input type="range"> 100KM
         
         <br><br>
         
-        
-        
-        
-        
+    <h2>Localização do participante</h2>
 
-
-
+        <input type="text" list="busca">
         
-
-
+        <datalist id="busca">
+            <option value="Zona Norte"></option>
+            <option value="Zona Sul"></option>
+            <option value="Zona Leste"></option>
+            <option value="Zona Oeste"></option>
+        <option value="Centro"></option>
+        </datalist>
         
+        <br><br>
         
+        <input type="button" value="Enviar">
+    
     </form>
 </body>
 </html>
