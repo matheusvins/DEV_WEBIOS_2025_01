@@ -1,73 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
+
 <body>
-    
+
     <!-- Executar atributo action serve para executar uma ação: enviar o usuário para outro site web/ enviar um Email de boas vinda para o usuário/ guardar as informações preenchidas no formulário para um banco de dados ou chamar alguma ação usando o Javascript -->
-    <form action="">
+    <form action="./BoasVindas.html" target="_blank">
 
         <!-- placeholder > inserir um texto, auxiliar para informar o que o usuario deve fazer no campo input -->
-        <label for="">Nome</label>
-        <input type="text"> 
-        
+        <fieldset>
+            <legend>
+                <h3>Digite o seu nome:</h3>
+            </legend>
+
+            <label for="">Nome</label>
+            <input type="text" required>
+        </fieldset>
+
         <br><br>
 
         <!-- Type radio - três opções -->
         <!-- para aplicar a configuração do rádio é necessario colocar o type como rádio e o name igual para todos os inputs -->
-        <input type="radio" name="1"> 
-        <label for="">São Paulo</label> <br>
-        <input type="radio" name="1"> 
-        <label for="">Grande São Paulo</label> <br>
-        <input type="radio" name="1"> 
-        <label for="">Campinas</label> 
-        
+        <fieldset>
+            <legend>
+                <h3>Selecione onde você mora:</h3>
+            </legend>
+
+            <input type="radio" name="1">
+            <label for="">São Paulo</label> <br>
+            <input type="radio" name="1">
+            <label for="">Grande São Paulo</label> <br>
+            <input type="radio" name="1">
+            <label for="">Campinas</label>
+        </fieldset>
+
         <br><br>
 
         <!-- checkbox-->
-        <input type="checkbox">
-        <label for="">Rock</label> <br>
-        <input type="checkbox">
-        <label for="">Pop</label> <br>
-        <input type="checkbox">
-        <label for="">Rap</label> <br>
-        <input type="checkbox">
-        <label for="">Jazz</label>
-        
+        <fieldset>
+            <legend>
+                <h3>Selecione seu gênero musical preferido:</h3>
+            </legend>
+
+            <input type="checkbox">
+            <label for="">Rock</label> <br>
+            <input type="checkbox">
+            <label for="">Pop</label> <br>
+            <input type="checkbox">
+            <label for="">Rap</label> <br>
+            <input type="checkbox">
+            <label for="">Jazz</label>
+        </fieldset>
+
         <br><br>
 
-        0KM <input type="range"> 100KM
+        <fieldset>
+            <legend>
+                <h3>Selecione sua distância:</h3>
+            </legend>
+
+            0KM <input type="range"> 100KM
+        </fieldset>
 
         <br><br>
 
         <!-- Select -->
-        <select name="" id="">
-            <option value="Amarelo">Amarelo</option>
-            <option value="Branco">Branco</option>
-            <option value="Vermelho">Vermelho</option>
-        </select>
+        <fieldset>
+            <legend>
+                <h3>Selecione sua cor preferida:</h3>
+            </legend>
+
+            <select name="" id="">
+                <option value="Amarelo">Amarelo</option>
+                <option value="Branco">Branco</option>
+                <option value="Vermelho">Vermelho</option>
+            </select>
+        </fieldset>
 
         <br><br>
 
         <!-- datalist -->
-        
-        <input type="text" list="busca">
-        
-        <datalist id="busca">
-            <option value="Santos"></option>
-            <option value="Santo André"></option>
-            <option value="Santo Antonio"></option>
-            <option value="Campinas"></option>
-        </datalist>
+        <fieldset>
+            <legend>
+                <h3>Selecione um Município:</h3>
+            </legend>
+
+            <input type="text" list="busca">
+
+            <datalist id="busca">
+                <option value="Santos"></option>
+                <option value="Santo André"></option>
+                <option value="Santo Antonio"></option>
+                <option value="Campinas"></option>
+            </datalist>
+        </fieldset>
 
         <br><br>
-        
+
         <!-- value - colocar um texto no input quando o valor do atributo type estiver como button -->
-        <input type="button" value="Enviar">
+        <input type="submit" value="Enviar">
+
+        <br><br>
+
+        <!-- Area para grande quantidade de texto
+            cols > colunas
+            rows > linhas -->
+        <textarea cols="30" rows="10"></textarea>
 
     </form>
 </body>
+
 </html>
