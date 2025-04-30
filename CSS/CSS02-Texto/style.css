@@ -1,0 +1,23 @@
+h1{
+    /* cor do texto usando decimal */
+    color: rgb(255, 255, 255); /*red, green, blue*/
+
+    /* cor do texto usando hexadecimal */
+    background-color: #7fa8c996; /*FF-red, 00-green, 00-blue*/
+    font-size: 40px;
+    text-align: center;
+
+}
+
+body{
+    font-family: "Gantari", "Time new Roman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+}
+
+h2{
+    text-shadow: 10px 10px 5px #9b9c9c;
+    /* deslocamento horizontal da sombra, deslocamento vertical da sombra, raio do borrado (opcional) e cor */
+
+}
