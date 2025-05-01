@@ -1,0 +1,18 @@
+/* para sinalizar que eu vou chamar um id o nome deve vir acompanhado no inicio pelo simbolo do jogo da velha */
+#div1{
+    background-color: rgb(155, 87, 75);
+}
+
+#div2{
+    background-color: rgb(214, 129, 120);
+}
+
+h1, h2{
+    background-color: brown;
+}
+
+/* para sinalizar que eu vou chamar uma class o nome deve vir acompanhado no inicio pelo ponto final */
+/* aplicar o mesmo estilo CSS para varias tags diferentes */
+.estiloTitulo{
+    text-shadow: 5px 5px 5px yellow
+}
