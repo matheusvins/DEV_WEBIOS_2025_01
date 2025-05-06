@@ -1,18 +1,30 @@
+*{
+    margin: 0;
+}
+
 /* para sinalizar que eu vou chamar um id o nome deve vir acompanhado no inicio pelo simbolo do jogo da velha */
 #div1{
-    background-color: rgb(155, 87, 75);
+    
+    background-color: rgb(60, 243, 5);
 }
 
 #div2{
-    background-color: rgb(214, 129, 120);
+    background-color: rgb(131, 102, 99);
 }
 
-h1, h2{
-    background-color: brown;
+div section{
+    background-color: rgb(13, 185, 228);
 }
 
 /* para sinalizar que eu vou chamar uma class o nome deve vir acompanhado no inicio pelo ponto final */
 /* aplicar o mesmo estilo CSS para varias tags diferentes */
+
+/* Aqui é colocado a estilização chamando a class */
 .estiloTitulo{
-    text-shadow: 5px 5px 5px yellow
+    text-shadow: 5px 5px 5px rgb(107, 123, 126)
 }
+
+/* Aqui é colocado a estilização chamanado a tag */
+/* h1, h2{
+    background-color: rgb(119, 41, 41);
+} */
