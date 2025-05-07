@@ -5,7 +5,7 @@
 /* para sinalizar que eu vou chamar um id o nome deve vir acompanhado no inicio pelo simbolo do jogo da velha */
 #div1{
     
-    background-color: rgb(60, 243, 5);
+    background-color: rgb(181, 189, 179);
 }
 
 #div2{
@@ -24,7 +24,7 @@ div section{
     text-shadow: 5px 5px 5px rgb(107, 123, 126)
 }
 
-/* Aqui é colocado a estilização chamanado a tag */
+/* Aqui é colocado a estilização chamando a tag */
 /* h1, h2{
     background-color: rgb(119, 41, 41);
 } */
