@@ -1,0 +1,25 @@
+#div1{
+    border: 1px solid red ;
+
+    /* Espaço interno */
+    padding: 10px;
+    margin-bottom: 25px;
+
+}
+
+#div2{
+    border: 1px solid rgb(50, 205, 146);
+}
+
+img{
+    /* largura */
+    width: 350px;
+
+    /* altura */
+    height: 350px;
+
+    /* espaçamento interno entre a imagem */
+    padding: 0%;
+}
+
+
