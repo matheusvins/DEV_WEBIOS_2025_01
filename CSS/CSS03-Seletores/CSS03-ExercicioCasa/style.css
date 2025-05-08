@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+}
+
+#div1{
+  
+  background-color: rgb(181, 189, 179);
+}
+
+#div2{
+  background-color: yellowgreen;
+}
+
+.estiloTitulo{
+    text-shadow: 5px 5px 5px rgb(107, 123, 126)
+}
