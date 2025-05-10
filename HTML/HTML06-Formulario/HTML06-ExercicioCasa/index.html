@@ -1,101 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+  <meta charset="UTF-8">
+  <title>Formulário Anônimo - Opinião sobre a Empresa</title>
 </head>
 
 <body>
+  
+  <h1>Formulário Anônimo</h1>
 
-    <form action="">
-        <label for="">Nome</label>
-        <input type="text">
+  <form action="#" method="post">
+    
+    <label>Nome da empresa:</label> <br>
+    <input type="text" name="empresa">
+    
+    <br><br>
 
-        <br><br>
+    <label>Data de entrada na empresa:</label> <br>
+    <input type="date" name="data_entrada">
+    
+    <br><br>
 
-        <h2>Nível de escolaridade</h2>
+    <label>Quantidade de funcionários:</label> <br>
+    <input type="number" name="quantidade_funcionarios">
+    
+    <br><br>
 
-        <input type="radio" name="1">
-        <label for="">Ensino fundamental incompleto</label> <br>
+    <label>Salário:</label> <br>
+    <input type="number" name="salario" step="0.01">
+    
+    <br><br>
 
-        <input type="radio" name="1">
-        <label for="">Ensino fundamental cursando</label> <br>
+    <label>Ainda está na empresa?</label> <br>
+    <input type="radio" name="ainda_na_empresa" value="sim"> Sim <br>
+    <input type="radio" name="ainda_na_empresa" value="nao"> Não
+    
+    <br><br>
 
-        <input type="radio" name="1">
-        <label for="">Ensino fundamental concluído</label> <br>
+    <label>Tipo de contratação:</label> <br>
+    <input type="radio" name="contratacao" value="PJ"> PJ <br>
+    <input type="radio" name="contratacao" value="CLT"> CLT
+    
+    <br><br>
 
-        <input type="radio" name="1">
-        <label for="">Ensino médio incompleto</label> <br>
+    <label>Quais benefícios você recebe?</label> <br>
+    <input type="checkbox" name="beneficios" value="vale_refeicao"> Vale-refeição <br>
+    
+    <input type="checkbox" name="beneficios" value="vale_alimentacao"> Vale-alimentação <br>
+    
+    <input type="checkbox" name="beneficios" value="vale_transporte"> Vale-transporte <br>
+    
+    <input type="checkbox" name="beneficios" value="academias"> Academias <br>
+    
+    <input type="checkbox" name="beneficios" value="plr"> PLR <br>
+    
+    <input type="checkbox" name="beneficios" value="plano_saude"> Plano de saúde <br>
+    
+    <input type="checkbox" name="beneficios" value="plano_odontologico"> Plano odontológico <br>
+    
+    <input type="checkbox" name="beneficios" value="cesta_basica"> Cesta básica <br>
+    
+    <input type="checkbox" name="beneficios" value="day_off"> Day off <br>
+    
+    <input type="checkbox" name="beneficios" value="bolsa_estudos"> Bolsa de estudos <br>
+    
+    <input type="checkbox" name="beneficios" value="licenca_maternidade_paternidade"> Licença maternidade/paternidade <br>
+    
+    <input type="checkbox" name="beneficios" value="pet_friendly"> Pet friendly <br>
+    
+    <input type="checkbox" name="beneficios" value="emprestimo_consignado"> Empréstimo consignado
+    
+    <br><br>
 
-        <input type="radio" name="1">
-        <label for="">Ensino médio cursando</label> <br>
+    <label>Prós da empresa:</label> <br>
+    <textarea name="pros" rows="3" cols="40"></textarea>
+    
+    <br><br>
 
-        <input type="radio" name="1">
-        <label for="">Ensino médio concluído</label> <br>
+    <label>Contras da empresa:</label> <br>
+    <textarea name="contras" rows="3" cols="40"></textarea>
+    
+    <br><br>
 
-        <input type="radio" name="1">
-        <label for="">Ensino superior incompleto</label> <br>
-
-        <input type="radio" name="1">
-        <label for="">Ensino superior cursando</label> <br>
-
-        <input type="radio" name="1">
-        <label for="">Ensino superior completo</label>
-
-        <br><br>
-
-        <h2>Áreas de interesse</h2>
-
-        <input type="checkbox">
-        <label for="">Tecnologia</label> <br>
-        <input type="checkbox">
-        <label for="">Artes</label> <br>
-        <input type="checkbox">
-        <label for="">Ciências Humanas</label> <br>
-        <input type="checkbox">
-        <label for="">Ciências Exatas</label> <br>
-        <input type="checkbox">
-        <label for="">Saúde</label> <br>
-        <input type="checkbox">
-        <label for="">Educação</label>
-
-        <br><br>
-
-        <h2>Modalidade de estudo desejada</h2>
-
-        <select name="" id="">
-            <option value="EAD">EAD</option>
-            <option value="Semi presencial">Semi presencial</option>
-            <option value="Presencial">Presencial</option>
-        </select>
-
-        <br><br>
-
-        <h2>Qual a distância aproximada entre sua residência e o local do curso?</h2>
-
-        0KM <input type="range"> 100KM
-
-        <br><br>
-
-        <h2>Localização do participante</h2>
-
-        <input type="text" list="busca">
-
-        <datalist id="busca">
-            <option value="Zona Norte"></option>
-            <option value="Zona Sul"></option>
-            <option value="Zona Leste"></option>
-            <option value="Zona Oeste"></option>
-            <option value="Centro"></option>
-        </datalist>
-
-        <br><br>
-
-        <input type="button" value="Enviar">
-
-    </form>
+    <input type="submit" value="Enviar">
+  </form>
 </body>
-
 </html>
