@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+div section{
+    background-color: rgb(13, 185, 228);
+}
+
 /* para sinalizar que eu vou chamar um id o nome deve vir acompanhado no inicio pelo simbolo do jogo da velha */
 #div1{
     
@@ -10,10 +14,6 @@
 
 #div2{
     background-color: rgb(131, 102, 99);
-}
-
-div section{
-    background-color: rgb(13, 185, 228);
 }
 
 /* para sinalizar que eu vou chamar uma class o nome deve vir acompanhado no inicio pelo ponto final */

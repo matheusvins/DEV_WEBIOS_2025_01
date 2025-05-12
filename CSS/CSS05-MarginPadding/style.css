@@ -5,6 +5,13 @@
 
 #div1 {
     border: 1px solid rgb(245, 1, 245);
+/* *{
+    margin: auto;
+    width: 85%;
+} */
+
+#div1{
+    border: 1px solid red ;
 
     /* Espaço interno */
     padding: 10px;
@@ -26,7 +33,6 @@
     /* top, (right, bottom) left */
     /* margin: 20px 5% 1.5rem */
 
-
     /* aplico o mesmo px para os 4 lados */
     margin: 125px;
 }
@@ -37,6 +43,10 @@
     /* aplico o mesmo pixel para os 4 lados */
     padding: 50px;
     margin: 125px;
+#div2{
+    border: 1px solid rgb(50, 205, 146);
+    padding: 50px;
+    /* aplico o mesmo px para os 4 lados */
 }
 
 img {

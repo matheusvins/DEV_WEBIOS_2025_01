@@ -1,7 +1,14 @@
 #P1 {
+    
+    /* largura da borda */
     border-width: 2px;
+    
+    /* cor da borda */
     border-color: rgb(0, 0, 0);
+    
+    /* estilo da borda */
     border-style: solid;
+    
     padding: 7px;
 }
 
@@ -13,6 +20,10 @@ img{
     height: 300px;
 }
 
+figcaption, p{
+    color: white;
+}
+
 body{
     /* background-color: rgb(48, 88, 75); */
     background-image: url("./claro.avif");
@@ -20,8 +31,4 @@ body{
 
     /* fixed / Scroll */
     background-attachment: fixed;
-}
-
-figcaption, p{
-    color: rgb(0, 0, 0);
 }
