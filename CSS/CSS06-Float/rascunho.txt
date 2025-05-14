@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS06</title>
+</head>
+
+<body>
+    <div>
+        <img src="./IMG/KRATOS.webp" alt=""
+        style="width: 500px; height: 500px; float: left;">
+
+        <p style="border: 2px solid green;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatibus nesciunt at. Velit officiis id sit. Fugiat enim nemo doloribus illo aperiam, reprehenderit ipsum at consectetur, molestiae ullam ducimus quod?</p>
+
+        <p style="clear: both;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, rem velit. Dolorum placeat odio iure omnis cum vitae vel voluptates dolorem, ullam, illum atque quisquam doloribus cumque saepe earum magni.</p>
+    </div>
+</body>
+</html>

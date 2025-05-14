@@ -1,0 +1,38 @@
+.Divs{
+    border: 2px solid black;
+    clear: both;
+    height: 500px;
+    margin-bottom: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-right: 5%;
+}
+
+#imgSorria{
+    height: 400px;
+    width: 300px;
+    float: left;
+    margin-right: 40px;
+    padding: 1%;
+}
+
+#imgNaruto{
+    height: 400px;
+    width: 400px;
+    float: right;
+}
+
+#imgCleito{
+    height: 400px;
+    width: 400px;
+}
+
+#imgsRed{
+    height: 400px;
+    width: 400px;
+}
+
+#Gif{
+    height: 400px;
+    width: 400px;
+}
