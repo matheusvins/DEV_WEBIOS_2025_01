@@ -2,12 +2,42 @@
     /* Vou trabalhar com flexbox */
     display: flex;
     flex-direction: row;
+
     /* evitar o overflow / evitar que o couteúdo ultrapasse a largura da tela */
     flex-wrap: wrap;
+
+    /* centraliza os elementos na tela */
+    /* justify-content: center; */
+
+    /* space-between espaça elementos para que não fique colado ao outro */ 
+    /* justify-content: space-between; */
+
+    /* space-content coloca um espaçamento uniforme entre os elementos e coloca o dobro do espaçamento nos elementos que estão perto da borda da tela */
+    justify-content: space-evenly;
+
+    /* space-around coloca um espaço entre os elementos e também adiciona um espaço dos elementos na borda da tela */
+    /* justify-content: space-around; */
+
+    border: 2px solid firebrick;
+    height: 200px;
+
+    /* align-items empurra os elementos para baixo para os lados para cima e para o meio */
+    align-items: center;
+
+    /* estica os elementos ocupando a altura e a largura */
+    /* align-items: stretch;*/
 }
 
 .itens{
     border: 1px solid black;
     width: 50px;
     height: 50px;
+}
+
+.div1:hover{
+    /* flex grow "estica" um unico elemento*/
+    flex-grow: 0.35;
+
+    /* transition coloca transição nesse meu elemento */
+    transition: 3s;
 }
