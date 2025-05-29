@@ -1,13 +1,42 @@
+body{
+    height: 600px;
+    border: 1px solid black;
+}
+
 .container{
+    height: 600px;
     border: 1px solid firebrick;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50px 50px ;
+    grid-template-columns: repeat(4, 1fr);
+
+    /* grid-template-columns: repeat (4, ifr); equivale a (25% 25% 25% 25%); */
+    grid-template-columns: repeat(4, 15%);
+
+    /* grid-template-rows: repeat(2, 50px); equivale a 50px 50px; */
+    grid-template-rows: repeat(2, 150px);
+
+    /*espaço entre colunas */
+    column-gap: 10px;
+
+    /*espaço entre linhas*/
+    row-gap: 15px;
+
+    /* justificar na horizontal*/
+    justify-items: center;
+
+    /* justificar na vertical */
+    align-items: center;
+
+    /* mover o container na horizontal */
+    justify-content: space-around;
+
+    /* mover container na vertical */
+    align-content: space-evenly;
 }
 
 .itens{
-    /* width: 35%; */
-    /* height: 100%; */
+    width: 100%;
+    height: 100%;
     border: 1px solid rgb(16, 0, 236);
     font-size: 250%;
 }
