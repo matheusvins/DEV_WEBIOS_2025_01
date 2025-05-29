@@ -47,5 +47,62 @@ body{
 
     /* referente as linhas horizontais */
     grid-row: 1 / 3;
+}
 
+    /* código para a aula 09 sobre GRID */
+
+#container2{
+    display: grid;
+
+    /* grid de 3x4 */
+
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-rows: repeat(4, 70px);
+} 
+
+#Item01{
+    border: 1px solid black;
+    grid-column: 1 / 4;
+    width: 70%;
+    justify-self: center;
+}
+
+#Item02{
+    border: 1px solid rgb(221, 0, 0);
+}
+
+#Item03{
+    border: 1px solid rgb(55, 0, 255);
+    grid-column: 3 / 4;
+}
+
+#Item04{
+    border: 1px solid rgb(0, 195, 255);
+    grid-column: 2 / 3;
+}
+
+#Item06{
+    border: 1px solid rgb(255, 0, 0);
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    height: 70%;
+    align-self: center;
+}
+
+#Item05{
+    border: 1px solid rgb(0, 26, 255);
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    height: 70%;
+    width: 70%;
+
+    /* eixo horizontal */
+    align-self: center;
+
+    /* eixo vertical */
+    align-self: center;
+
+    /* justify-self / align-self */
+    place-self: center;
 }
