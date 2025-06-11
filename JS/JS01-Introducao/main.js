@@ -64,3 +64,22 @@ console.log(temCamisa)
 console.log(temCracha)
 console.log(temCamisa == true && temCracha == true) // false == true = false
 console.log(temCamisa == true || temCracha == true) // false ou true = true
+
+var x = 3
+var y = 2
+x = x + y
+// x += y formato contraido
+// x = 3 + 2
+console.log(x)
+
+// log > para mostrar resultados, mesangens do sistema
+// clear > limpar o console e deixar disponivel para novas mensagens
+
+console.clear()
+
+console.log("Esta tudo limpo")
+console.log("Olá mundo")
+
+console.error("Não use essa tela, você pode ser punido por isso")
+
+console.warn("Mas apresenta uma mensagem em amarelo")
