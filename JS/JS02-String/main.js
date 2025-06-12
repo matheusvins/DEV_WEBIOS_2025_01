@@ -31,6 +31,15 @@ console.log(texto4.substring(1, 3))
 
 console.log(texto4.substring(1))
 
-var texto5 = 'Bem vindo a Microsoft'
+
+//SUBSTITUIR UMA STRING DENTRO DE OUTRA
+var texto5 = 'Bem vindo ao Microsoft'
 let novaMensagem = texto5.replace('Microsoft', 'IOS')
 console.log(novaMensagem)
+
+//RETIRAR ESPAÇOS EM BRANCO
+let textarea = '        Olá Mundo, apredendo JavaScript        '
+
+console.log(textarea.trim())
+
+
